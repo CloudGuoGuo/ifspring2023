@@ -1,0 +1,41 @@
+body {
+    background-image: url("Imagine.jfif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50%;
+    margin-left: 25%;
+    background: #ffffff60;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-shadow: 3px 3px #868686;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+h1 {
+    font-family: 'Times New Roman', serif;
+}
+
+main{
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
+    background: #ffffff60;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.section{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-shadow: 1px 1px #868686;
+}
