@@ -1,0 +1,207 @@
+body{
+    background-color: #000000;
+}
+
+p{
+    color: #fff;
+}
+
+h2{
+    color: #fff;
+}
+
+.nav {
+  background: linear-gradient(to bottom, #575757, #0b0b0b);
+  height: 50px;
+  margin-bottom: 1px;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  float:left;
+  width: 20%;
+  text-align: center;
+}
+
+.nav li a {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav li a:hover {
+  background-color: #555;
+}
+
+.first{
+    text-align: center;
+}
+
+.first p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.first img{
+    display: block;
+    margin: 0 auto;
+}
+
+.vertical-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    border-left: 3px solid rgb(255, 255, 255);
+    border-right: 3px solid rgb(255, 255, 255);
+    height: 600px;
+}
+
+.intro{
+    grid-column: span 2;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    border: 1px solid rgb(255, 255, 255);
+    grid-template-columns: 690px 500px;
+    grid-column-gap: 10px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.intro p{
+    padding: 80px;
+    line-height: 1.6;
+}
+
+.intro img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.vertical-line2 {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 300px;
+}
+
+.vertical-line2 p{
+    padding-top: 200px;
+}
+
+/*seasons starts here*/
+
+.season{
+    grid-column: span 2;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 700px 650px;
+    margin: auto;
+    margin-top: 1px;
+}
+
+.season img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.season h2, p{
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    line-height: 1.6;
+}
+
+.season .heading2{
+    font-size: 30px;
+    display: inline-block;
+    padding-left: 90px;
+}
+
+/*cast&characters starts here*/
+
+.character-grid {
+    display: grid;
+    grid-column: span 4;
+    grid-template-columns: 300px 300px 300px 300px;
+    max-width: 1240px;
+    margin: auto;
+    margin-top: 50px;
+    gap: 10px;
+  }
+  
+.character {
+    background-color: #101010;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(155, 155, 155, 0.1);
+    border: 3px solid rgb(59, 59, 59);
+    padding-top: 20px;
+    text-align: center;
+}
+  
+.character img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-width: 210px;
+    border-radius: 20px;
+    padding: 10px;
+}
+  
+.character h2 {
+    font-size: 1.2rem;
+}
+  
+.character p {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+/*music starts here*/
+.soundtrack-grid {
+    display: grid;
+    grid-column: span 1;
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.soundtrack-item {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns:600px 500px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    max-height: 200px;
+    margin: 0 auto;
+}
+
+.soundtrack-item .sound-img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+}
