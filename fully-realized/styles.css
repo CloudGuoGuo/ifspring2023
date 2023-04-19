@@ -1,0 +1,444 @@
+body{
+    background-color: #000000;
+}
+
+p{
+    color: #fff;
+}
+
+h2{
+    color: #fff;
+}
+
+h3{
+    color: #fff;
+}
+
+.nav {
+  background: linear-gradient(to bottom, #ffbf00, #9e0000, #0b0b0b);
+  margin-bottom: 10px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+}
+
+.nav i{
+    display: none;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.nav li {
+  width: 20%;
+  text-align: center;
+}
+
+.nav li a {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav li a:hover {
+  background-color: #680000;
+  color: rgb(255, 179, 0);
+}
+
+@media (max-width: 850px){
+    .nav{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 600px){
+    .nav i{
+        display: inline-block;
+        margin-right: 5px;
+    }
+    .nav li a .text {
+        display: none;
+    }
+}
+
+/*Home page start here*/
+.first{
+    text-align: center;
+}
+
+.first p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+@media (max-width: 1024px){
+    .first p{
+        font-size: 20px;
+    }
+}
+
+.first img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.vertical-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    border-left: 3px solid rgb(255, 255, 255);
+    border-right: 3px solid rgb(255, 255, 255);
+    height: 50%;
+}
+
+.intro{
+    grid-column: span 2;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    border: 1px solid rgb(255, 255, 255);
+    grid-template-columns: 690px 500px;
+    grid-column-gap: 10px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#intro-words, #intro-img{
+    max-width: 100%;
+    height: auto;
+}
+
+.intro p{
+    padding: 10%;
+    line-height: 1.6;
+}
+
+.intro img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1200px){
+    .intro{
+        grid-column: span 1;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgb(255, 255, 255);
+        grid-template-columns: 2fr;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .intro img{
+        display: block;
+        object-fit: cover;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 600px){
+    .intro p{
+        font-size: 15px;
+    }
+}
+
+.vertical-line2 {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 200px;
+    height: 300px;
+    background: linear-gradient(to bottom, #000000, #910000, #ffbf00);
+}
+
+.vertical-line2 p{
+    color: #000000;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+/*seasons starts here*/
+
+.season{
+    grid-column: span 2;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 750px 650px;
+    margin: auto;
+}
+
+.season img{
+    display: inline-block;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#season-words{
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.heading2{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    background-color:#000000;
+    cursor: pointer; /* Change cursor on hover */
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 25px;
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.262); /* Add drop shadow */
+}
+
+.heading2:nth-of-type(2){
+    float: right;
+}
+
+.heading2:hover {
+    background-color: #d4d4d4; /* Change background color on hover */
+}
+
+
+.heading2 a{
+    color: #ffffff;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-decoration: none; /* Remove underline */
+    display: block;
+}
+
+.heading2 a:hover{
+    color: #000000;
+}
+
+.season h2, .season p{
+    display: flex;
+    line-height: 1.6;
+}
+
+@media (max-width: 1200px){
+    .season{
+        grid-column: span 1;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        grid-template-columns: 2.5fr;
+    }
+}
+
+/*cast&characters starts here*/
+
+.character-grid {
+    display: grid;
+    grid-column: span 3;
+    grid-template-columns: 300px 300px 300px;
+    max-width: 950px;
+    margin: auto;
+    margin-top: 50px;
+    gap: 10px;
+}
+  
+.character {
+    display: block;
+    background: linear-gradient(to bottom, #5e5e5e, #000000);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(155, 155, 155, 0.1);
+    border: 3px solid rgb(59, 59, 59);
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+  
+.character img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-width: 210px;
+    border-radius: 20px;
+    padding: 10px;
+}
+  
+.character h2 {
+    font-size: 1.2rem;
+}
+  
+.character p {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+@media (max-width: 1200px){
+    .character-grid {
+        display: grid;
+        grid-column: span 2;
+        grid-template-columns: 300px 300px;
+        max-width: 600px;
+        margin: auto;
+        margin-top: 50px;
+        gap: 10px;
+    }
+}
+@media (max-width: 650px){
+    .character-grid {
+        display: grid;
+        grid-column: span 1;
+        grid-template-columns: 300px;
+        max-width: 300px;
+        margin: auto;
+        margin-top: 50px;
+        gap: 10px;
+    }
+}
+
+/*music starts here*/
+.music{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.music ul{
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.music li{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.album{
+    grid-column: span 2;
+    display: grid;
+    max-width: 1050px;
+    border: 1px solid rgb(255, 255, 255);
+    grid-template-columns: 200px 800px;
+    margin: 0 auto;
+}
+
+.album #music-words{
+    display: block;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.album h2{
+    padding-top: 20px;
+    padding-left: 10%;
+    line-height: 1.6;
+}
+
+.album h3{
+    display: block;
+    color: #555;
+    padding-left: 10%;
+}
+
+.album img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+.play-button {
+    position: relative;
+    display: inline-block;
+}
+
+.play-button .play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid #fff;
+    cursor: pointer;
+}
+  
+.play-button:hover .play-icon {
+    border-left-color: #666;
+}
+
+@media (max-width: 1050px){
+    .music ul{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .album{
+        grid-column: span 2;
+        display: grid;
+        border: 1px solid rgb(255, 255, 255);
+        grid-template-columns: 200px 2.5fr;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 550px){
+    .music ul{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .album{
+        grid-column: span 1;
+        display: grid;
+        border: 1px solid rgb(255, 255, 255);
+        grid-template-columns: 2.5fr;
+        margin: 0 auto;
+    }
+}
+
+/*awards starts here*/
+.awards{
+    text-align: center;
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.awards h2{
+    color: #ffc800;
+}
+.awards h3{
+    color: #ff8400;
+}
+.awards p{
+    line-height: 1.6;
+    margin: 0 auto;
+}
