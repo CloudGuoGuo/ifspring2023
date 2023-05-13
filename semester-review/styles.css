@@ -1,0 +1,53 @@
+body{
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: black;
+}
+header{
+    text-align: center;
+}
+header h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+header h2{
+    margin-top: -34px;
+    color: rgb(255, 255, 255);
+}
+h3{
+    text-align: left;
+    margin-left: 15px;
+    color: white;
+}
+p{
+    color: white;
+}
+.portfolio p{
+    text-align: left;
+    margin-left: 15px;
+}
+.works{
+    text-align: center;
+}
+.portfolio{
+    display: inline-block;
+    width: 322px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    border: 1px solid  white;
+    box-shadow: 1px 2px 15px gray;
+}
+img{
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+}
+.footer{
+    text-align: center;
+}
